@@ -18,6 +18,14 @@
     .btn {
         @apply w-[217px] h-14 bg-darkCyan font-fraunces text-lightCream font-bold text-base leading-[25px] rounded-md transition-colors duration-300 ease-in-out md:text-lg hover:bg-[#66D2CF];
     }
+
+    .circle {
+        @apply w-[31px] h-[31px] border-2 border-darkCyan rounded-full;
+    }
+
+    .line {
+        @apply h-[2px] bg-paleOrange;
+    }
 }
 
 
