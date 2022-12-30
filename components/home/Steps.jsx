@@ -12,6 +12,10 @@ const Steps = () => {
       <div className="flex flex-col items-center space-y-16 mt-14 md:flex-row md:space-y-0 md:space-x-8 xl:space-x-0 xl:justify-between">
         { steps.map((step) => <Step key={step.id} number={step.stepNum} title={step.title} description={step.description} />)}
       </div>
+
+      <div className="text-center mt-12 md:text-left">
+        <button className="btn">Create your plan</button>
+      </div>
     </section>
   )
 }

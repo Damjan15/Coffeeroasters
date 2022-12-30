@@ -1,4 +1,4 @@
-import { Header } from "../components";
+import { Footer, Header } from "../components";
 import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
@@ -6,6 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
