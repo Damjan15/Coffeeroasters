@@ -12,6 +12,10 @@ module.exports = {
         paleOrange: "#FDD6BA",
         lightCream: "#FEFCF7",
         grey: "#83888F"
+      },
+      fontFamily: {
+        "fraunces": ['Fraunces', 'serif'],
+        "barlow": ['Barlow', 'sans-serif']
       }
     },
   },

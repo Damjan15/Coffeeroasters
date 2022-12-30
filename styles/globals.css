@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+    body {
+        @apply bg-lightCream font-barlow;
+    }
+}
+
+
+/* Graients */
+.dropdown {
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+}
