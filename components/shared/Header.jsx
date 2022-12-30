@@ -1,10 +1,11 @@
+import { useState } from "react";
+import { navLinks } from "../../utils";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/assets/shared/desktop/logo.svg";
 import hamburgerIcon from "../../public/assets/shared/mobile/icon-hamburger.svg";
 import closeIcon from "../../public/assets/shared/mobile/icon-close.svg";
-import { navLinks } from "../../utils"
-import { useState } from "react";
 
 const Header = () => {
     const [ open, setOpen ] = useState(false);
@@ -29,9 +30,11 @@ const Header = () => {
 
 
         {/* Dropdown menu for the mobile devices */}
-        <ul className={`dropdown h-[577px] transition-opacity ease-in-out duration-300 ${open ? "opacity-100" : "opacity-0"} flex flex-col items-center space-y-6 pt-8 md:hidden`}>
+        { open && (
+          <motion.ul initial={{ opacity: 0}} animate={{ opacity: 1 }} transition={{ duration: 0.5, ease: "easeInOut"}} className={`dropdown h-[577px] flex flex-col items-center space-y-6 pt-8 md:hidden`}>
             { navLinks.map((link) => <li key={link.id} className="font-fraunces text-darkGreyBlue text-2xl leading-[32px]"><Link href={link.route}>{ link.name }</Link></li>)}
-        </ul>
+        </motion.ul>
+        )}
       </div>
     </header>
   );

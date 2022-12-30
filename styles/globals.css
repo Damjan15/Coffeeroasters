@@ -10,10 +10,18 @@
     body {
         @apply bg-lightCream font-barlow;
     }
+
+    .bg-hero {
+        @apply bg-[url('/assets/home/mobile/image-hero-coffeepress.jpg')] bg-no-repeat bg-cover bg-center md:bg-[url('/assets/home/tablet/image-hero-coffeepress.jpg')] lg:bg-[url('/assets/home/desktop/image-hero-coffeepress.jpg')]
+    }
+
+    .btn {
+        @apply w-[217px] h-14 bg-darkCyan font-fraunces text-lightCream font-bold text-base leading-[25px] rounded-md transition-colors duration-300 ease-in-out md:text-lg hover:bg-[#66D2CF];
+    }
 }
 
 
 /* Graients */
 .dropdown {
-    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+    background: linear-gradient(359deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
 }
