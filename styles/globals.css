@@ -26,6 +26,18 @@
     .line {
         @apply h-[2px] bg-paleOrange;
     }
+
+    .banner {
+        @apply h-[400px] rounded-[10px] xl:h-[450px];
+    }
+
+    .banner-about {
+        @apply bg-[url('/assets/about/mobile/image-hero-whitecup.jpg')] bg-no-repeat bg-cover bg-center md:bg-[url('/assets/about/tablet/image-hero-whitecup.jpg')] xl:bg-[url('/assets/about/desktop/image-hero-whitecup.jpg')]
+    }
+
+    .banner-heading-sm {
+        @apply font-fraunces font-bold text-[28px] leading-[28px] text-lightCream mb-5 md:text-[32px] md:leading-[40px] xl:text-[40px] xl:leading-[48px];
+    }
     
 }
 

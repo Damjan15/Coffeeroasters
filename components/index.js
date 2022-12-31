@@ -1,6 +1,7 @@
 // Shared Components
 import Header from "./shared/Header";
 import Footer from "./shared/Footer";
+import Banner from "./shared/Banner";
 
 // Home Components
 import Hero from "./home/Hero";
@@ -15,5 +16,6 @@ export {
     Hero,
     Collections,
     Choose,
-    Steps
+    Steps,
+    Banner
 }
