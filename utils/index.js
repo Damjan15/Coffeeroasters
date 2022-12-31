@@ -5,6 +5,9 @@ import danche from "../public/assets/home/desktop/image-danche.png";
 import quality from "../public/assets/home/desktop/icon-coffee-bean.svg";
 import gift from "../public/assets/home/desktop/icon-gift.svg";
 import truck from "../public/assets/home/desktop/icon-truck.svg";
+import thumbnailAustralia from "../public/assets/about/desktop/illustration-australia.svg";
+import thumbnailCanada from "../public/assets/about/desktop/illustration-canada.svg";
+import thumbnailUK from "../public/assets/about/desktop/illustration-uk.svg";
 
 
 
@@ -94,4 +97,34 @@ export const steps = [
         title: "Receive and enjoy",
         description: "We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience."
     }
+]
+
+export const headquarters = [
+    {
+        id: "united-kingdom",
+        thumbnail: thumbnailUK,
+        title: "United Kingdom",
+        itemOne: "68  Asfordby Rd",
+        itemTwo: "Alcaston",
+        itemThree: "SY6 1YA",
+        phone: "+44 1241 918425"
+    },
+    {
+        id: "canada",
+        thumbnail: thumbnailCanada,
+        title: "Canada",
+        itemOne: "1528  Eglinton Avenue",
+        itemTwo: "Toronto",
+        itemThree: "Ontario M4P 1A6",
+        phone: "+1 416 485 2997"
+    },
+    {
+        id: "australia",
+        thumbnail: thumbnailAustralia,
+        title: "Australia",
+        itemOne: "36 Swanston Street",
+        itemTwo: "Kewell",
+        itemThree: "Victoria",
+        phone: "+61 4 9928 3629"
+    },
 ]

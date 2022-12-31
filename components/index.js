@@ -13,6 +13,7 @@ import Steps from "./home/Steps";
 // About Components
 import Commitment from "./aboutus/Commitment";
 import Quality from "./aboutus/Quality";
+import Headquarters from "./aboutus/Headquarters";
 
 
 export {
@@ -24,5 +25,6 @@ export {
     Steps,
     Banner,
     Commitment,
-    Quality
+    Quality,
+    Headquarters
 }
