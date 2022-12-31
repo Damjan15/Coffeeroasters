@@ -15,6 +15,9 @@ import Commitment from "./aboutus/Commitment";
 import Quality from "./aboutus/Quality";
 import Headquarters from "./aboutus/Headquarters";
 
+// Subscribe Components
+import StepsDark from "./subscribe/StepsDark";
+
 
 export {
     Header,
@@ -26,5 +29,6 @@ export {
     Banner,
     Commitment,
     Quality,
-    Headquarters
+    Headquarters,
+    StepsDark
 }

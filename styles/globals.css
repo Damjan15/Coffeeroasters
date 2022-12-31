@@ -35,12 +35,25 @@
         @apply bg-[url('/assets/about/mobile/image-hero-whitecup.jpg')] bg-no-repeat bg-cover bg-center md:bg-[url('/assets/about/tablet/image-hero-whitecup.jpg')] xl:bg-[url('/assets/about/desktop/image-hero-whitecup.jpg')]
     }
 
+    .banner-plan {
+        @apply bg-[url('/assets/plan/mobile/image-hero-blackcup.jpg')] bg-no-repeat bg-cover bg-center md:bg-[url('/assets/plan/tablet/image-hero-blackcup.jpg')] xl:bg-[url('/assets/plan/desktop/image-hero-blackcup.jpg')]
+    }
+
     .banner-heading-sm {
         @apply font-fraunces font-bold text-[28px] leading-[28px] text-lightCream mb-5 md:text-[32px] md:leading-[40px] xl:text-[40px] xl:leading-[48px];
     }
 
+    .banner-heading-lg {
+        @apply font-fraunces font-bold text-[40px] leading-[40px] mb-5 text-lightCream md:text-[48px] md:leading-[48px] xl:text-[72px] xl:leading-[72px];
+    }
+    
+
     .quality-bg {
         @apply bg-[url('/assets/about/mobile/bg-quality.png')] bg-center bg-no-repeat bg-cover md:bg-[url('/assets/about/tablet/bg-quality.png')] xl:bg-[url('/assets/about/desktop/bg-quality.png')];
+    }
+
+    .steps-bg {
+        @apply bg-[url('/assets/plan/mobile/bg-steps.png')] bg-center bg-no-repeat bg-cover md:bg-[url('/assets/plan/tablet/bg-steps.png')] xl:bg-[url('/assets/plan/desktop/bg-steps.png')]
     }
     
 }
