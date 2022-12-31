@@ -38,6 +38,10 @@
     .banner-heading-sm {
         @apply font-fraunces font-bold text-[28px] leading-[28px] text-lightCream mb-5 md:text-[32px] md:leading-[40px] xl:text-[40px] xl:leading-[48px];
     }
+
+    .quality-bg {
+        @apply bg-[url('/assets/about/mobile/bg-quality.png')] bg-center bg-no-repeat bg-cover md:bg-[url('/assets/about/tablet/bg-quality.png')] xl:bg-[url('/assets/about/desktop/bg-quality.png')];
+    }
     
 }
 

@@ -12,6 +12,7 @@ import Steps from "./home/Steps";
 
 // About Components
 import Commitment from "./aboutus/Commitment";
+import Quality from "./aboutus/Quality";
 
 
 export {
@@ -22,5 +23,6 @@ export {
     Choose,
     Steps,
     Banner,
-    Commitment
+    Commitment,
+    Quality
 }
