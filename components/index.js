@@ -10,6 +10,10 @@ import Choose from "./home/Choose";
 import Steps from "./home/Steps";
 
 
+// About Components
+import Commitment from "./aboutus/Commitment";
+
+
 export {
     Header,
     Footer,
@@ -17,5 +21,6 @@ export {
     Collections,
     Choose,
     Steps,
-    Banner
+    Banner,
+    Commitment
 }
