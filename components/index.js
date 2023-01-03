@@ -2,6 +2,7 @@
 import Header from "./shared/Header";
 import Footer from "./shared/Footer";
 import Banner from "./shared/Banner";
+import CustomHead from "./shared/CustomHead";
 
 // Home Components
 import Hero from "./home/Hero";
@@ -23,6 +24,7 @@ import StepsForm from "./subscribe/StepsForm";
 export {
     Header,
     Footer,
+    CustomHead,
     Hero,
     Collections,
     Choose,

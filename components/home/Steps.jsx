@@ -1,8 +1,11 @@
 import Divider from "../shared/Divider"
 import Step from "../shared/Step"
 import { steps } from "../../utils"
+import { useRouter } from "next/router"
 
 const Steps = () => {
+  const router = useRouter();
+
   return (
     <section className="px-4">
       <h4 className="font-fraunces font-bold text-grey text-2xl leading-[32px] text-center md:text-left">How it works</h4>
@@ -14,7 +17,7 @@ const Steps = () => {
       </div>
 
       <div className="text-center mt-12 md:text-left">
-        <button className="btn">Create your plan</button>
+        <button className="btn" onClick={() => router.push("/create-plan")}>Create your plan</button>
       </div>
     </section>
   )
