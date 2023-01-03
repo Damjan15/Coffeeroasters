@@ -4,7 +4,7 @@ const CustomHead = ({ pageTitle }) => {
   return (
     <Head>
       <title>{pageTitle}</title>
-      <meta name="description" content="Great coffee made simple." />
+      <meta name="description" content="Expertly brewed coffee and the finest beans at Coffee Roasters. In-house roasting and skilled baristas serve up the perfect cup. Pastries and sandwiches also available." />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
