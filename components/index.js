@@ -17,6 +17,7 @@ import Headquarters from "./aboutus/Headquarters";
 
 // Subscribe Components
 import StepsDark from "./subscribe/StepsDark";
+import StepsForm from "./subscribe/StepsForm";
 
 
 export {
@@ -30,5 +31,6 @@ export {
     Commitment,
     Quality,
     Headquarters,
-    StepsDark
+    StepsDark,
+    StepsForm
 }
